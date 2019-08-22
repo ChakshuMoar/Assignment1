@@ -1,0 +1,167 @@
+body{
+    height: 100%;
+    width: 100%;
+    min-width: 960px;
+    min-height: 500px;
+    display: flex; 
+    height: 100%;
+    flex-direction: column;
+}
+
+header {
+    /* overflow: hidden; */
+    display: flex; 
+    justify-content: space-between;
+    background-color: #FBEEED;
+    /* position: fixed; */
+}
+
+header h1 {
+    text-indent: -9999px;
+}
+
+header img {
+    /* float: left; */
+    /* display: inline; */
+    /* padding-left: 20px;
+    margin-bottom: 20px; */
+    order: 1;
+    margin-left: -125px;
+}
+
+header nav {
+    /* position: fixed;*/
+    order: 2;
+    margin: auto 0px;
+}
+ 
+nav li {
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    background-color: peru;
+    position: absolute;
+    bottom: 2px;
+    right: 15px;
+    width: 400px;
+    height: 120px;
+}
+
+.non_hero_left {
+    background: url(../img/non_hero_left.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    margin: 10px 10px;
+}
+
+.non_hero_left h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+}
+
+.non_hero_left li {
+    padding-bottom: 10px;
+    margin-left: 80px;  
+}
+
+.non_hero_left li a {
+    color: red;
+}
+
+#img1 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    top: 7px;
+    left: 6px;
+}
+
+#img2 {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    bottom: 5px;
+    right: 130px;
+}
+
+.non_hero_right {
+    background-color: bisque;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin: 10px 10px;
+}
+
+.non_hero_right .upper_class {
+    background: url(../img/teachers.jpeg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    color: red;
+}
+.non_hero_right .middle_class {
+    background: url(../img/students.jpeg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    color: red;
+}
+
+.non_hero_right .lower_class {
+    background: url(../img/medal.jpeg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: brown;
+    color: red;
+}
+
+.footer_text {
+    background-color: red;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.mail_id {
+    padding-top: 20px;
+    margin-left: 50px; 
+    padding-bottom: 10px;
+}
+
+.social_media {
+    margin-left: 50px;
+}
+
+#first_img {
+    margin-left: 30px;
+}
+
+.social_media img {
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.address {
+    margin-left: 50px;
+}
+
+.address h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.address p {
+    padding-bottom: 20px;
+}
